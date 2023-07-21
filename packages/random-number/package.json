@@ -4,7 +4,7 @@
   "description": "Generate a random number",
   "author": "Retrojb <baltescartography@gmail.com>",
   "homepage": "https://github.com/Retrojb/lerna-mono-test#readme",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "main": "lib/random-number.js",
   "directories": {
     "lib": "lib",
@@ -25,5 +25,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "1e7a1c22b14e0bea3b33e62d111854e7f34157c7"
 }
