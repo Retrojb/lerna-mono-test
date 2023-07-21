@@ -5,7 +5,7 @@ const charSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 function randomStrings(len = 6) {
   return [...Array(len)]
       .map((ind) =>
-          chrSet.charAt(Math.floor(Math.random() * charSet.length))
+          charSet.charAt(Math.floor(Math.random() * charSet.length))
       )
       .join("");
 }
