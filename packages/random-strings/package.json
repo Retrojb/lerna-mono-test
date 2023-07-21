@@ -1,11 +1,11 @@
 {
-  "name": "@retrojb/random-string",
-  "version": "0.0.3",
-  "description": "generate a random string",
+  "name": "@retrojb/random-strings",
+  "version": "0.0.1",
+  "description": "test",
   "author": "Retrojb <baltescartography@gmail.com>",
   "homepage": "https://github.com/Retrojb/lerna-mono-test#readme",
   "license": "UNLICENSED",
-  "main": "lib/random-string.js",
+  "main": "lib/random-strings.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -18,13 +18,12 @@
     "url": "git+https://github.com/Retrojb/lerna-mono-test.git"
   },
   "scripts": {
-    "test": "node ./__tests__/random-string.test.js"
+    "test": "node ./__tests__/random-strings.test.js"
   },
   "bugs": {
     "url": "https://github.com/Retrojb/lerna-mono-test/issues"
   },
   "publishConfig": {
     "access": "public"
-  },
-  "gitHead": "172aa67e441fcd06d0d260aa90c9d72a579ee184"
+  }
 }
