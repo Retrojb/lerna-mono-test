@@ -1,6 +1,6 @@
 {
   "name": "@retrojb/retro-foo",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "test of smaller bundles",
   "author": "Retrojb <baltescartography@gmail.com>",
   "homepage": "https://github.com/Retrojb/lerna-mono-test#readme",
@@ -29,6 +29,6 @@
   },
   "dependencies": {
     "@retrojb/random-numbers": "^0.1.1",
-    "@retrojb/random-strings": "^0.1.1"
+    "@retrojb/random-strings": "^0.1.2"
   }
 }
