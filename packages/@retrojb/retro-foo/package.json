@@ -21,7 +21,8 @@
     "url": "git+https://github.com/Retrojb/lerna-mono-test.git"
   },
   "scripts": {
-    "test": "node ./__tests__/@retrojb/retro-foo.test.js"
+    "test": "node ./__tests__/@retrojb/retro-foo.test.js",
+    "run": "node ./lib/retro-foo.js"
   },
   "bugs": {
     "url": "https://github.com/Retrojb/lerna-mono-test/issues"
