@@ -1,12 +1,11 @@
 {
-  "name": "@retrojb/random-numbers",
+  "name": "@retrojb/retro-foo",
   "version": "0.0.6",
-  "private": "true",
-  "description": "> TODO: description",
+  "description": "test of smaller bundles",
   "author": "Retrojb <baltescartography@gmail.com>",
   "homepage": "https://github.com/Retrojb/lerna-mono-test#readme",
   "license": "MIT",
-  "main": "lib/random-numbers.js",
+  "main": "lib/retro-foo.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -14,18 +13,21 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Retrojb/lerna-mono-test.git"
   },
   "scripts": {
-    "test": "node ./__tests__/random-numbers.test.js"
+    "test": "node ./__tests__/@retrojb/retro-foo.test.js"
   },
   "bugs": {
     "url": "https://github.com/Retrojb/lerna-mono-test/issues"
   },
-  "publishConfig": {
-    "access": "public"
-  },
-  "gitHead": "45195fd55d7afcd725be1a53a1c30fad834df4f2"
+  "dependencies": {
+    "@retrojb/random-numbers": "*",
+    "@retrojb/random-strings": "*"
+  }
 }

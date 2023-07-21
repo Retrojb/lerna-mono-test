@@ -3,9 +3,14 @@
   "private": true,
   "license": "UNLICENSED",
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "packages/@retrojb/*"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "@retrojb/npm-deploy-test": "^1.0.4",
+    "lodash": "^4.17.21",
+    "prettier": "^3.0.0"
+  },
   "devDependencies": {
     "lerna": "^7.1.4"
   }
