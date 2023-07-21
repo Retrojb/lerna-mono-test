@@ -1,6 +1,6 @@
 {
   "name": "@retrojb/random-string",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "generate a random string",
   "author": "Retrojb <baltescartography@gmail.com>",
   "homepage": "https://github.com/Retrojb/lerna-mono-test#readme",
