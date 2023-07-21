@@ -4,7 +4,7 @@
   "description": "> TODO: description",
   "author": "Retrojb <baltescartography@gmail.com>",
   "homepage": "https://github.com/Retrojb/lerna-mono-test#readme",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "main": "lib/random-numbers.js",
   "directories": {
     "lib": "lib",
@@ -25,5 +25,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "1ca986646319c12e55c9068ce9932cd300220d7f"
 }
