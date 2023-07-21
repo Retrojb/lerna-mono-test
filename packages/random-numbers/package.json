@@ -1,7 +1,6 @@
 {
   "name": "@retrojb/random-numbers",
   "version": "0.0.6",
-  "private": "true",
   "description": "> TODO: description",
   "author": "Retrojb <baltescartography@gmail.com>",
   "homepage": "https://github.com/Retrojb/lerna-mono-test#readme",
@@ -19,7 +18,8 @@
     "url": "git+https://github.com/Retrojb/lerna-mono-test.git"
   },
   "scripts": {
-    "test": "node ./__tests__/random-numbers.test.js"
+    "test": "node ./__tests__/random-numbers.test.js",
+    "run": "node ./lib/random-numbers.js"
   },
   "bugs": {
     "url": "https://github.com/Retrojb/lerna-mono-test/issues"
